@@ -3,7 +3,7 @@ Use LaunchDarkly's Python SDK to get flag value as part of an API.
 
 ## Setup
 1. Run 'pip install -r requirements.txt 
-2. Run 'fask run'
+2. Run 'flask run'
 
 ## Curl example:
 curl -X POST -H "Content-Type: application/json" -d '<key-for-user>' "http://127.0.0.1:5000//api/v1/flags?sdk=<server-side-key>"
