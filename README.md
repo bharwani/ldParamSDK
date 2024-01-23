@@ -11,3 +11,4 @@ curl -X POST -H "Content-Type: application/json" -d '<key-for-user>' "http://127
 ## TODO:
 - [ ] Add example of AllFlags(). Parse response.
 - [ ] build context from request body JSON
+- [ ] Implement [Flask-caching](https://flask-caching.readthedocs.io/) to cache responses
